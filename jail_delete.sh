@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+cd $DIR
+
 command_success () {
     if [ $? -eq 0 ]; then
 	echo "$1 success"
