@@ -1,11 +1,9 @@
 #!/usr/bin/env sh
 
-
 DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
 cd $DIR
 
 print_menu(){
-    
     printf "\n
 JAIL MANAGER
 ----------------------------------\n
