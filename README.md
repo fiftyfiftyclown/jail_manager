@@ -6,6 +6,10 @@ files. Users can also specify the hostname and version of FreeBSD
 that is downloaded and installed.
 
 ** Usage
+Initialize the directories & configurations required via the
+`init.sh` script, this will require root permission and zfs root!
 
-Start program via `initialize.sh`, this will launch the program
-and let you interactively manipulate the jails.
+Start program via `menu.sh`, this will launch the program
+and let you interactively manipulate the jails. This will
+require `doas` installed, run `pkg install doas` and configure
+to your liking.
